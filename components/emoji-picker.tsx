@@ -1,11 +1,11 @@
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import {
 	Modal,
+	type ModalProps,
 	Pressable,
 	StyleSheet,
 	Text,
 	View,
-	type ModalProps,
 } from "react-native";
 
 interface EmojiPickerProps extends ModalProps {

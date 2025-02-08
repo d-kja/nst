@@ -1,5 +1,5 @@
-import { StyleSheet, Text, View } from "react-native";
 import { Link, Stack } from "expo-router";
+import { StyleSheet, Text, View } from "react-native";
 
 const Page = () => {
 	return (

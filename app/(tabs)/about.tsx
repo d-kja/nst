@@ -1,12 +1,12 @@
-import { StyleSheet, Text, View } from "react-native";
 import { Link } from "expo-router";
+import { StyleSheet, Text, View } from "react-native";
 
 const Page = () => {
 	return (
 		<View style={styles.container}>
 			<Text style={styles.text}>
 				Project following Expo's tutorial about React Native. You can find the
-				tutorial by clicking on the following link: {" "}
+				tutorial by clicking on the following link:{" "}
 				<Link style={styles.button} href="https://docs.expo.dev/tutorial">
 					Reference link
 				</Link>

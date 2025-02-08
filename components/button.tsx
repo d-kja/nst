@@ -1,10 +1,10 @@
 import type { ReactNode } from "react";
 import {
 	Pressable,
+	type PressableProps,
 	StyleSheet,
 	View,
 	type ViewStyle,
-	type PressableProps,
 } from "react-native";
 
 interface ButtonProps extends Omit<PressableProps, "style"> {

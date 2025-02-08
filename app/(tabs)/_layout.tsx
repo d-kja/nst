@@ -1,19 +1,19 @@
-import { Tabs } from "expo-router";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import { Tabs } from "expo-router";
 
 const Layout = () => {
 	return (
 		<Tabs
 			screenOptions={{
-        tabBarStyle: {
-          backgroundColor: '#25292e',
-          borderColor: '#25292e'
-        },
+				tabBarStyle: {
+					backgroundColor: "#25292e",
+					borderColor: "#25292e",
+				},
 				headerStyle: {
 					backgroundColor: "#25292e",
 				},
-        headerShadowVisible: false,
-        headerTintColor: '#fafafa',
+				headerShadowVisible: false,
+				headerTintColor: "#fafafa",
 				tabBarActiveTintColor: "#fafafa",
 			}}
 		>
